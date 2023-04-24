@@ -1,8 +1,7 @@
+#!/usr/bin/python3
 # Script : Challenge02.py
 # Purpose: Python script that sends ICMP requests to a host to evaluate if they are up or down.
 # Why: Automate ICMP requests with date and time stamps.
-
-#!/usr/bin/python3
 
 import time
 import os
@@ -28,6 +27,5 @@ while True:
 
     # Print the status and timestamp
     print(f'{now} - {ip}: {status_text}')
-
     # Wait for the specified interval before sending the next ICMP packet
     time.sleep(interval)
