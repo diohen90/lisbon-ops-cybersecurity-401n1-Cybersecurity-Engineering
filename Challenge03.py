@@ -1,7 +1,8 @@
+#!/usr/bin/python3
 # Script : Challenge03.py
 # Purpose: Python script that sends emails to an email address.
 # Why: Automate emails.
-#!/usr/bin/python3
+
 
 import os
 import smtplib
