@@ -65,3 +65,4 @@ while True:
 
     # Wait for the specified interval before sending the next ICMP packet
     time.sleep(interval)
+    server.quit()
